@@ -42,9 +42,9 @@ python -m spacy download en_core_web_lg
 
 ### Installing
 
-Install the dependencies from the prerequisite list and then run the notebook.
+Install the dependencies from the prerequisite list and then run the notebook. Either a virtual environment (virtualenv) or a package manager (e.g. pipenv) can be used. 
 
-Example: The scraper can be run independently of the rest of the script:
+#### Example: The scraper can be run independently of the rest of the script:
 
 ```python
 def scraper(keyword):
