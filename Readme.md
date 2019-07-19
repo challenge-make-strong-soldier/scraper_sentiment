@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-```
+```python
 Python==3.6
 BeautifulSoup4  
 Pandas
@@ -46,7 +46,7 @@ Install the dependencies from the prerequisite list and then run the notebook.
 
 Example: The scraper can be run independently of the rest of the script:
 
-```
+```python
 def scraper(keyword):
     """
     takes search term for Business Times (Singapore) news articles, 
@@ -103,7 +103,7 @@ articles = scraper("shell")
 
 Visualise named-entities in your text:
 
-```
+```python
 displacy.render(spacy_nlp(str(sentences[:13])), jupyter=True, style='ent')
 ```
 
@@ -111,7 +111,7 @@ displacy.render(spacy_nlp(str(sentences[:13])), jupyter=True, style='ent')
 
 Visualise and compare sentiment distributions:
 
-```
+```python
 sns.set(style="white", palette="muted", color_codes=True)
 
 plt.figure(figsize=(12,7))
