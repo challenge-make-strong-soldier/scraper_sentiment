@@ -127,7 +127,7 @@ sns.despine(left=True)
 
 ## Authors
 
-* **Marcel Dietsch** - (https://github.com/marceld)
+* **Marcel Dietsch** - (https://github.com/marceld) and (https://twitter.com/MarcelDietsch)
 
 ## License
 
